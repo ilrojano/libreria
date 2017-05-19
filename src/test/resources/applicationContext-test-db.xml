@@ -19,8 +19,8 @@
 <!-- Creacion base de datos derby embedded  de test-->
 <jdbc:embedded-database  id="miDataSource" type="DERBY" database-name="TEST">
 <!-- scripts de creacion de tablas y de datos -->
-<jdbc:script location="com/grupoatrium/db/schema.sql" />
-<jdbc:script location="com/grupoatrium/db/inserts.sql"/>
+<jdbc:script location="schema.sql" />
+<jdbc:script location="inserts.sql"/>
 </jdbc:embedded-database>
 
 
