@@ -14,7 +14,9 @@ import com.grupoatrium.persistencia.impl.EditorialesDAOTest;
 import com.grupoatrium.persistencia.impl.LibrosDAOTest;
 
 public class principalTestTest {
-
+/**
+ * clase de prueba 
+ */
 	@Test
 	public void testMain() {
 		// Levantar el contexto de Spring
