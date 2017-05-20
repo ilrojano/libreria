@@ -34,10 +34,6 @@
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.5.1</version>
 			<configuration>
-				<includes>
-				<include>com/grupoatrium/*.sql</include>
-				<include>**/*.java</include>
-				</includes>
 			</configuration>
 		</plugin>
 	</plugins>
